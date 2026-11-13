@@ -907,6 +907,7 @@ module.exports = function(eleventyConfig) {
   userEleventySetup(eleventyConfig);
 
   return {
+    pathPrefix: "/medicine/",
     dir: {
       input: "src/site",
       output: "dist",
